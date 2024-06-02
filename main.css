@@ -1,0 +1,131 @@
+body {
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active,
+#catalogo .nav .nav-link.active{
+    background-color: #ff4d4d;
+    color: #fff;
+    
+}
+
+#honda button{
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+#yamaha button {
+    background-color: #1a1aff;
+    color: #fff;
+}
+
+#kawasaki button {
+    background-color: #009933;
+    color: #fff;
+}
+
+#yamaha img,
+#honda img,
+#kawasaki img {
+    height: 19vh;
+}
+
+.text-colored {
+    color: #ff4d4d;
+}
+
+.text-title {
+    font-family: "Black Ops One", cursive;
+}
+
+#main p{
+    color: #fff;
+    
+}
+
+.navbar-toggler{
+    background-color: #ff4d4d;
+}
+
+.main {
+    position: relative;
+    background: url('https://cdn.pixabay.com/photo/2014/07/31/23/10/biker-407123_1280.jpg');
+    min-height: 90vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 280px 0 220px;
+
+}
+
+.main h2 {
+    font-size: 2.6em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p {
+    margin-top: 1em;
+    padding: 0;
+    font-size: 16px;
+    color: #ccc;
+    padding-bottom: 25px;
+}
+
+.main .saber-mais {
+    background-color: #ff4d4d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    list-style: none;
+    font-size: 20px;
+}
+
+.social-links a {
+    color: #fff;
+}
+
+form button {
+    color: #fff;
+    background-color: #ff4d4d;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    #kawasaki img {
+    height: 30vh;
+}
+
+    #yamaha img {
+    height: 30vh;
+}
+
+    #honda img {
+    height: 30vh;
+}
+
+}
